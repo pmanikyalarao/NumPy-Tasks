@@ -1,7 +1,7 @@
 
-# NumPy Basics Tasks
+# NumPy Tasks
 
-Welcome to the **NumPy Basics Tasks Repository**! This repository contains a collection of tasks and examples to help you learn and explore the basics of [NumPy](https://numpy.org/), a powerful Python library for numerical computing.
+Welcome to the **NumPy Tasks Repository**! This repository contains a collection of tasks and examples to help you learn and explore the basics of [NumPy](https://numpy.org/), a powerful Python library for numerical computing.
 
 ## 📖 About NumPy
 
