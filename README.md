@@ -1,80 +1,98 @@
+# 🐍 NumPy Practice Problems
 
-# NumPy Tasks
+Welcome to the **NumPy Practice Problems** repository!  
+This collection of exercises is designed to help you master essential **NumPy** concepts and techniques.  
+The problems are divided into two levels of difficulty: **Simple** and **Expanded**, so learners of all levels can benefit.
 
-Welcome to the **NumPy Tasks Repository**! This repository contains a collection of tasks and examples to help you learn and explore the basics of [NumPy](https://numpy.org/), a powerful Python library for numerical computing.
+---
 
-## 📖 About NumPy
+## 📂 Repository Structure
 
-NumPy is an essential library for numerical and scientific computing in Python. It is widely used in fields such as data science, machine learning, and computational mathematics. Key features of NumPy include:
+This repository provides both **problems** and their **solutions** in a clear and accessible format:
 
-- **N-dimensional arrays** for efficient data storage and manipulation.
-- **Mathematical operations** like linear algebra, statistics, and random number generation.
-- **Integration** with other Python libraries like SciPy, Pandas, and Matplotlib.
+- **Simple Problems**
+  - `Simple_NumPy_Practice_Problems.docx` → Document with beginner-level tasks (array creation, attributes, basic operations).
+  - `simpleNumpyTasks.ipynb` → Jupyter Notebook containing the solutions to simple problems.
 
+- **Expanded Problems**
+  - `Expanded_NumPy_Practice_Problems.docx` → Document with advanced problems (matrix operations, linear algebra, normalization).
+  - `ExtendedNumpyTasks.ipynb` → Jupyter Notebook with the solutions to expanded problems.
 
-## 🔑 Key Topics Covered
-
-1. **NumPy Array Basics**:
-   - Creating arrays using `numpy.array()`, `numpy.zeros()`, `numpy.ones()`, etc.
-   - Understanding array attributes (`shape`, `size`, `dtype`).
-
-2. **Array Indexing and Slicing**:
-   - Accessing elements, subarrays, and modifying array elements.
-
-3. **Mathematical Operations**:
-   - Array arithmetic (addition, subtraction, multiplication, division).
-   - Statistical functions (mean, median, standard deviation).
-
-4. **Broadcasting**:
-   - Performing operations on arrays of different shapes efficiently.
-
-5. **Linear Algebra**:
-   - Operations like dot product, matrix multiplication, and solving equations.
-
-6. **Random Number Generation**:
-   - Generating random arrays using `numpy.random`.
+---
 
 ## 🚀 Getting Started
 
-To run the tasks provided in this repository, follow these steps:
+Follow these steps to set up the repository and start solving problems.
 
-### Prerequisites
+### 🔧 Prerequisites
 
-- Install Python (3.6 or higher) from [python.org](https://www.python.org/).
-- Install NumPy:
-  ```bash
-  pip install numpy
-  ```
-### Clone the Repository
+Make sure you have **Python 3.6+** and **NumPy** installed:
 
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/pmanikyalarao/NumPy-Basics-Tasks.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd NumPy-Basics-Tasks
-   ```
+```bash
+pip install numpy
+```
 
-### Run the Jupyter Notebook
+If you want to run the solutions in Jupyter Notebook, also install:
 
-If you are using the Jupyter Notebook file:
-1. Install Jupyter Notebook:
-   ```bash
-   pip install notebook
-   ```
-2. Launch Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-3. Open and run `basicTasks.ipynb`.
+```bash
+pip install notebook
+```
 
-## 📚 Resources
+---
 
-Here are some resources to deepen your knowledge of NumPy:
+### 📥 Clone the Repository
 
-- [NumPy Documentation](https://numpy.org/doc/)
-- [W3Schools NumPy Tutorial](https://www.w3schools.com/python/numpy/)
-- [Real Python NumPy Guide](https://realpython.com/numpy-tutorial/)
+Open your terminal (or command prompt) and run:
 
+```bash
+git clone https://github.com/pmanikyalarao/NumPy-Tasks
+```
 
+Navigate into the project folder:
+
+```bash
+cd NumPy-Tasks
+```
+
+---
+
+### ▶️ Running the Notebooks
+
+To view and run the solutions:
+
+```bash
+jupyter notebook
+```
+
+This will open a tab in your browser. From there:
+- Navigate to the repository folder.
+- Open the `.ipynb` files (`simpleNumpyTasks.ipynb` or `ExtendedNumpyTasks.ipynb`).
+- Run the code cells interactively.
+
+---
+
+## 💡 Key Topics Covered
+
+This repository covers a wide range of **NumPy functionalities**:
+
+### ✅ Simple Problems
+- **Array Creation** → Create arrays with specific values or ranges.  
+- **Array Attributes** → Understand `.shape` vs `.size`.  
+- **Mathematical Operations** → Find minimum, maximum, mean, etc.  
+- **Indexing & Slicing** → Extract rows/columns and reshape arrays.  
+- **Conditional Operations** → Replace values and find indices based on conditions.  
+
+### 🔥 Expanded Problems
+- **Advanced Array Creation** → Checkerboard patterns, linearly spaced numbers, diagonal matrices.  
+- **Array Manipulation** → Flattening, reversing, stacking arrays vertically/horizontally.  
+- **Matrix Operations** → Perform sums, differences, products, transposes, inverses.  
+- **Linear Algebra** → Solve systems of equations, compute eigenvalues & eigenvectors.  
+- **Normalization** → Scale arrays to a specific range (e.g., 0 → 1).  
+
+---
+
+## 🎯 Goal
+
+The goal of this repository is to provide **hands-on practice** for mastering NumPy, from beginner-friendly problems to intermediate and advanced challenges.
+
+---
